@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'regular';
+    src: url(/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'semi';
+    src: url(/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.site{
+    background-color: #164F63;
+}
+.contanier { 
+margin: 0 auto;
+box-sizing: border-box;
+background-color: white;
+border-radius: 15px 0px 0px 0px;
+margin-left: 170px;
+height: 1850px;
+}
+.content{
+    width: 940px;
+    margin-left: 20px;
+}
+h1{
+    color: #A5DBEF;
+    font-weight: 800;
+    font-family: 'bold';
+    margin-left: 170px;
+    padding-top: 15px;
+    font-size: 22px;
+    padding-left: 15px;
+}
+.h1{
+    font-family: 'semi';
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+}
+.h2{
+    font-family: 'regular';
+    font-size: 13px;
+    padding-top: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+li{
+    font-family: 'regular';
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 18px;
+}
+ul{
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.txt1{
+    font-family: 'regular';
+    font-size: 13px;
+    padding-top: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+.palka{
+    height: 55px;
+    width: 0.1px;
+    background-color: black;
+    margin-top: 20px;
+}
+b{
+    font-family: 'semi';
+    font-size: 15px;
+}
+.txt_light{
+    font-family: 'regular';
+    font-size: 13px;
+    padding-top: 15px;
+    line-height: 20px;
+}
+.block_znak{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 30px;
+}
+.img_znak{
+    width: 15px;
+    height: 15px;
+}
+.txt_znak{
+    font-family: 'regular';
+    font-size: 13px;
+    line-height: 20px;
+}
+.bloki{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.img_artek{
+    height: 200px;
+}
+.img_orel{
+    height: 200px;
+}
+.txt_main2{
+    font-family: 'regular';
+    font-size: 13px;
+    line-height: 18px;
+}
+.a2{
+    color: black;
+    font-family: 'regular';
+    text-align: justify;
+}
+.txt_main4{
+    margin-top: 30px;
+    font-family: 'regular';
+    font-size: 13px;
+    line-height: 21px;
+    text-align: justify;
+}
+.txt_foot{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #A5DBEF;
+    font-family: 'regular';
+    font-size: 11px;
+}
+footer{
+    height: 50px;
+}
+
+@media screen and (max-width: 2561) {
+    .a2{
+        font-size: 100px;
+    }
+    .h1{
+        font-size: 100px;
+    }
+}
